@@ -53,7 +53,7 @@ class ModelWrapper:
                 candidate = Path(__file__).resolve().parent.parent / candidate
             return str(candidate)
 
-        default_model_path = Path(__file__).resolve().parent.parent / "models" / "best_model.pth"
+        default_model_path = Path(__file__).resolve().parent.parent / "models" / "model_clahe.pth"
         return str(default_model_path)
 
     def _load_pipeline(self):

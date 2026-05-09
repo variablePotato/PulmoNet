@@ -752,7 +752,7 @@ def init_pipeline(model_path=None):
     global pipeline
     if model_path is None:
         # Try to find the model in default location
-        default_model_path = Path(__file__).parent.parent / 'models' / 'best_model.pth'
+        default_model_path = Path(__file__).parent.parent / 'models' / 'model_clahe.pth'
         if default_model_path.exists():
             model_path = str(default_model_path)
             logger.info(f"Found model at default location: {model_path}")

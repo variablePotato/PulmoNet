@@ -1,10 +1,8 @@
-# ANTIGRAVITY - AI-Powered Pneumonia Detection System
+AI-Powered Pneumonia Detection System
 
 Professional-grade medical AI web application for chest X-ray pneumonia detection.
 
 ## 🎯 Overview
-
-ANTIGRAVITY is a production-ready full-stack application that combines:
 - **Modern React Frontend** with premium healthcare UI
 - **FastAPI Backend** with robust API design
 - **Modular ML Integration** for easy model swapping

@@ -295,4 +295,4 @@ For issues, questions, or suggestions:
 
 ---
 
-**ANTIGRAVITY** - AI-powered chest X-ray screening for pneumonia detection
+**ANTIGRAVITY** - AI-powered chest X-ray screening for pneumonia detectio.

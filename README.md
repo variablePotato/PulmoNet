@@ -14,9 +14,65 @@ A full-stack deep learning application that pairs a **ResNet-50 classifier** wit
 ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
 
+<br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-pulmo--net.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://pulmo-net.vercel.app/)
+[![Watch on YouTube](https://img.shields.io/badge/▶_Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/DTXY-IxtPzg)
+
+<br>
+
+## 🎬 See it in action
+
+<a href="https://youtu.be/DTXY-IxtPzg">
+  <img src="https://img.youtube.com/vi/DTXY-IxtPzg/maxresdefault.jpg" alt="PulmoNet demo video — click to watch on YouTube" width="85%">
+</a>
+
+<sub>▶ Click the preview to watch the full walkthrough: uploading chest X-rays and getting live predictions from the deployed app.</sub>
+
+<br><br>
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/landing.png" alt="PulmoNet landing page" width="100%"><br>
+      <b>Landing page</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/upload.png" alt="Drag-and-drop X-ray upload" width="100%"><br>
+      <b>Drag-and-drop batch upload</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/result-pneumonia.png" alt="Pneumonia prediction with confidence score" width="100%"><br>
+      <b>Pneumonia detected, with confidence</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/result-normal.png" alt="Normal prediction" width="100%"><br>
+      <b>Normal scan result</b>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 [Features](#-features) · [How it works](#-how-it-works) · [Getting started](#-getting-started) · [API](#-api-reference) · [Team](#-team)
 
 </div>
+
+---
+
+## 🌐 Live deployment
+
+| | |
+|---|---|
+| **Frontend** | [pulmo-net.vercel.app](https://pulmo-net.vercel.app/) on Vercel |
+| **Backend** | FastAPI + PyTorch (CPU) on Render |
+| **Demo video** | [youtu.be/DTXY-IxtPzg](https://youtu.be/DTXY-IxtPzg) |
+
+> 💤 The backend runs on a free tier that sleeps when idle. If the first prediction takes 30–60 seconds, it's waking up — after that, results come back in a few seconds.
 
 ---
 

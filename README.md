@@ -24,7 +24,7 @@ A full-stack deep learning application that pairs a **ResNet-50 classifier** wit
 ## 🎬 See it in action
 
 <a href="https://youtu.be/DTXY-IxtPzg">
-  <img src="https://img.youtube.com/vi/DTXY-IxtPzg/hqdefault.jpg" alt="PulmoNet demo video — click to watch on YouTube" width="85%">
+  <img src="docs/demo-thumbnail.png" alt="PulmoNet demo video — click to watch on YouTube" width="85%">
 </a>
 
 <sub>▶ Click the preview to watch the full walkthrough: uploading chest X-rays and getting live predictions from the deployed app.</sub>

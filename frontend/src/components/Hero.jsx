@@ -172,7 +172,7 @@ export default function Hero() {
                       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-blue-900 p-4 flex flex-col justify-between">
                         {/* Screen header */}
                         <div className="text-xs text-cyan-400 font-mono mb-2">
-                          <p>SYNAPSE-X ANALYSIS v1.0</p>
+                          <p>PULMONET ANALYSIS v1.0</p>
                           <p className="text-green-400">&gt; Status: COMPLETE</p>
                         </div>
 

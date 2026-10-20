@@ -1,4 +1,4 @@
-# SYNAPSE-X Backend Requirements
+# PulmoNet Backend Requirements
 # All Python packages needed for the backend API.
 
 # Web Framework

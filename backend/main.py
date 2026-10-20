@@ -1,5 +1,5 @@
 """
-SYNAPSE-X backend API.
+PulmoNet backend API.
 
 The API loads the pneumonia model once on startup, exposes structured
 inference endpoints, and centralizes request/error logging.
@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="SYNAPSE-X API",
+    title="PulmoNet API",
     description="AI-powered chest X-ray screening for pneumonia detection",
     version="1.0.0",
 )
@@ -62,7 +62,7 @@ async def request_logging_middleware(request: Request, call_next):
 
 @app.on_event("startup")
 async def startup_event():
-    logger.info("Starting SYNAPSE-X backend")
+    logger.info("Starting PulmoNet backend")
     try:
         get_model()
         if os.getenv("MODEL_WARMUP", "true").lower() == "true":
@@ -77,7 +77,7 @@ async def health_check():
     return {
         "success": True,
         "status": "running",
-        "service": "SYNAPSE-X API",
+        "service": "PulmoNet API",
         "model": model.metadata(),
     }
 
@@ -86,7 +86,7 @@ async def health_check():
 async def root():
     return {
         "success": True,
-        "name": "SYNAPSE-X",
+        "name": "PulmoNet",
         "tagline": "AI-powered chest X-ray screening for pneumonia detection",
         "version": "1.0.0",
         "endpoints": {

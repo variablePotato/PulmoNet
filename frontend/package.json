@@ -1,8 +1,8 @@
 {
-  "name": "synapse-x-frontend",
+  "name": "pulmonet-frontend",
   "version": "1.0.0",
   "type": "module",
-  "description": "SYNAPSE-X - AI-Powered Pneumonia Detection Frontend",
+  "description": "PulmoNet - AI-Powered Pneumonia Detection Frontend",
   "main": "src/index.jsx",
   "scripts": {
     "dev": "vite",

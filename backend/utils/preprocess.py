@@ -1,5 +1,5 @@
 """
-ANTIGRAVITY - Image Preprocessing Pipeline
+PulmoNet - Image Preprocessing Pipeline
 
 This module handles image preprocessing for pneumonia detection.
 

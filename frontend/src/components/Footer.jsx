@@ -20,7 +20,7 @@ export default function Footer() {
                 <span className="text-white font-bold">X</span>
               </div>
               <div>
-                <h3 className="font-bold text-white">SYNAPSE-X</h3>
+                <h3 className="font-bold text-white">PulmoNet</h3>
                 <p className="text-xs">AI Pneumonia Detection</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><button onClick={() => alert('About page coming soon!')} className="hover:text-white transition-colors bg-none border-none cursor-pointer">About</button></li>
               <li><button onClick={() => alert('Blog coming soon!')} className="hover:text-white transition-colors bg-none border-none cursor-pointer">Blog</button></li>
-              <li><button onClick={() => alert('Contact us at info@synapse-x.ai')} className="hover:text-white transition-colors bg-none border-none cursor-pointer">Contact</button></li>
+              <li><button onClick={() => window.open('https://github.com/variablePotato/PulmoNet/issues', '_blank')} className="hover:text-white transition-colors bg-none border-none cursor-pointer">Contact</button></li>
               <li><button onClick={() => alert('Careers page coming soon!')} className="hover:text-white transition-colors bg-none border-none cursor-pointer">Careers</button></li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-12">
           <div className="bg-blue-900/30 border border-blue-700/30 rounded-lg p-4 mb-8">
             <p className="text-xs text-slate-300 leading-relaxed">
-              <strong>Medical Disclaimer:</strong> SYNAPSE-X is an AI-assisted screening tool designed to support radiologists and healthcare professionals. 
+              <strong>Medical Disclaimer:</strong> PulmoNet is an AI-assisted screening tool designed to support radiologists and healthcare professionals. 
               It is not a substitute for professional medical diagnosis, treatment, or advice. Always consult qualified healthcare professionals for medical decisions. 
               Results should be interpreted in clinical context by licensed medical practitioners.
             </p>
@@ -71,10 +71,10 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-sm text-slate-400">
-              © {currentYear} SYNAPSE-X. All rights reserved.
+              © {currentYear} PulmoNet. All rights reserved.
             </p>
             <div className="flex items-center gap-6 mt-4 sm:mt-0">
-              <button onClick={() => alert('Twitter: @SYNAPSE_X')} className="text-slate-400 hover:text-white transition-colors bg-none border-none cursor-pointer">Twitter</button>
+              <button onClick={() => window.open('https://github.com/variablePotato/PulmoNet', '_blank')} className="text-slate-400 hover:text-white transition-colors bg-none border-none cursor-pointer">GitHub</button>
               <button onClick={() => alert('GitHub: coming soon')} className="text-slate-400 hover:text-white transition-colors bg-none border-none cursor-pointer">GitHub</button>
               <button onClick={() => alert('LinkedIn: coming soon')} className="text-slate-400 hover:text-white transition-colors bg-none border-none cursor-pointer">LinkedIn</button>
             </div>

@@ -117,7 +117,7 @@ def test_batch_prediction():
 def main():
     """Run all tests"""
     print("\n" + "="*60)
-    print("SYNAPSE-X PyTorch Model Integration Tests")
+    print("PulmoNet PyTorch Model Integration Tests")
     print("="*60)
     
     results = []

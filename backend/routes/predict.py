@@ -200,6 +200,6 @@ async def api_health_check():
     return {
         "success": True,
         "status": "running",
-        "service": "SYNAPSE-X API",
+        "service": "PulmoNet API",
         "model": model.metadata(),
     }

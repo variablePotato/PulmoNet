@@ -26,7 +26,7 @@ export default function Navbar() {
               <span className="text-white font-bold text-lg">X</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-slate-900">SYNAPSE-X</h1>
+              <h1 className="text-xl font-bold text-slate-900">PulmoNet</h1>
               <p className="text-xs text-slate-500">Pneumonia Detection</p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 /**
- * SYNAPSE-X Frontend
+ * PulmoNet Frontend
  */
 
 import React, { useEffect } from 'react';

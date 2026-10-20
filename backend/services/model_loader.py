@@ -1,5 +1,5 @@
 """
-Model service for SYNAPSE-X.
+Model service for PulmoNet.
 
 The backend keeps one model wrapper in memory and reuses it for every request.
 The provided model file is a PyTorch checkpoint saved as ``best_model.pth``.
@@ -62,7 +62,7 @@ class ModelWrapper:
             if self.model_path and not Path(self.model_path).exists():
                 logger.warning(f"Model file not found at {self.model_path}; fallback classifier will be used")
 
-            logger.info(f"Loading SYNAPSE-X model from {self.model_path}")
+            logger.info(f"Loading PulmoNet model from {self.model_path}")
             self.pipeline = init_pipeline(model_path=self.model_path)
             self.is_loaded = self.pipeline is not None
             self.load_time_ms = round((time.perf_counter() - started_at) * 1000, 2)

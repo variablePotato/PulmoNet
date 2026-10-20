@@ -36,22 +36,22 @@ A full-stack deep learning application that pairs a **ResNet-50 classifier** wit
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshots/landing.png" alt="PulmoNet landing page" width="100%"><br>
-      <b>Landing page</b>
+      <img src="docs/screenshots/landing.png" alt="PulmoNet upload and analyze workspace" width="100%"><br>
+      <b>Upload &amp; Analyze workspace</b>
     </td>
     <td align="center" width="50%">
       <img src="docs/screenshots/upload.png" alt="Drag-and-drop X-ray upload" width="100%"><br>
-      <b>Drag-and-drop batch upload</b>
+      <b>X-ray selected, inference running</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="docs/screenshots/result-pneumonia.png" alt="Pneumonia prediction with confidence score" width="100%"><br>
-      <b>Pneumonia detected, with confidence</b>
+      <b>Pneumonia detected — 89.3% confidence</b>
     </td>
     <td align="center" width="50%">
       <img src="docs/screenshots/result-normal.png" alt="Normal prediction" width="100%"><br>
-      <b>Normal scan result</b>
+      <b>Normal lung — per-class probabilities</b>
     </td>
   </tr>
 </table>
